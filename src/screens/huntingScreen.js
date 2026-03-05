@@ -1,11 +1,14 @@
 import { navigateTo } from '../main.js';
 
+// Resolve the base URL for assets (works on both local dev and GitHub Pages)
+const BASE = import.meta.env.BASE_URL;
+
 // Animal definitions — supports both emoji and image sprites
 // To use PNG images: set `img` to the path (e.g. '/assets/deer.png')
 // Images should be transparent PNGs facing LEFT
 const ANIMALS = [
-  { emoji: '🦌', img: null, name: 'Deer', food: 35, points: 1, speed: 0.8, hitRadius: 45, width: 70, height: 55, zone: 'ground', bobAmount: 3, bobSpeed: 2 },
-  { emoji: '🐇', img: null, name: 'Rabbit', food: 5, points: 1, speed: 1.4, hitRadius: 30, width: 45, height: 35, zone: 'ground', bobAmount: 8, bobSpeed: 4 },
+  { emoji: '🦌', img: `${BASE}assets/deer.png`, name: 'Deer', food: 35, points: 1, speed: 0.8, hitRadius: 45, width: 120, height: 95, zone: 'ground', bobAmount: 3, bobSpeed: 2 },
+  { emoji: '🐇', img: `${BASE}assets/rabbit.png`, name: 'Rabbit', food: 5, points: 1, speed: 1.4, hitRadius: 30, width: 80, height: 60, zone: 'ground', bobAmount: 8, bobSpeed: 4 },
   { emoji: '🦬', img: null, name: 'Buffalo', food: 100, points: 2, speed: 0.5, hitRadius: 55, width: 90, height: 70, zone: 'ground', bobAmount: 2, bobSpeed: 1.5 },
   { emoji: '🦃', img: null, name: 'Turkey', food: 8, points: 1, speed: 1.0, hitRadius: 35, width: 55, height: 45, zone: 'ground', bobAmount: 4, bobSpeed: 3 },
   { emoji: '🐿️', img: null, name: 'Squirrel', food: 2, points: 1, speed: 1.8, hitRadius: 25, width: 35, height: 30, zone: 'ground', bobAmount: 5, bobSpeed: 5 },
