@@ -2,6 +2,8 @@
 
 A visually stunning, modern reimagining of the classic Oregon Trail game. Lead your party of 5 pioneers on a 2,000-mile journey from Independence, Missouri to Oregon City — facing wild animals, river crossings, illness, and the unforgiving frontier.
 
+### 🎮 [Play Now — Live Demo](https://hsandhu01.github.io/Modern_Oregon_Trail/)
+
 Built for kids and families who love adventure, strategy, and a little bit of chaos.
 
 ![Vite](https://img.shields.io/badge/Vite-7.x-646CFF?logo=vite&logoColor=white)
