@@ -6,10 +6,10 @@ const BASE = import.meta.env.BASE_URL;
 // Animal definitions — all use PNG sprites now
 // Deer, buffalo, turkey face RIGHT in their images; squirrel faces LEFT
 const ANIMALS = [
-  { img: `${BASE}assets/deer.png`, name: 'Deer', food: 35, points: 1, speed: 0.8, hitRadius: 50, width: 120, height: 110, zone: 'ground', bobAmount: 3, bobSpeed: 2, facesRight: true },
-  { img: `${BASE}assets/buffalo.png`, name: 'Buffalo', food: 100, points: 2, speed: 0.5, hitRadius: 60, width: 140, height: 100, zone: 'ground', bobAmount: 2, bobSpeed: 1.5, facesRight: true },
-  { img: `${BASE}assets/turkey.png`, name: 'Turkey', food: 12, points: 1, speed: 0.9, hitRadius: 40, width: 90, height: 80, zone: 'ground', bobAmount: 3, bobSpeed: 3, facesRight: true },
-  { img: `${BASE}assets/squirrel.png`, name: 'Squirrel', food: 3, points: 1, speed: 1.6, hitRadius: 30, width: 70, height: 55, zone: 'ground', bobAmount: 5, bobSpeed: 5, facesRight: false },
+  { img: `${BASE}assets/deer.png`, name: 'Deer', food: 35, points: 1, speed: 1.8, hitRadius: 50, width: 120, height: 110, zone: 'ground', bobAmount: 3, bobSpeed: 2, facesRight: true },
+  { img: `${BASE}assets/buffalo.png`, name: 'Buffalo', food: 100, points: 2, speed: 1.2, hitRadius: 60, width: 140, height: 100, zone: 'ground', bobAmount: 2, bobSpeed: 1.5, facesRight: true },
+  { img: `${BASE}assets/turkey.png`, name: 'Turkey', food: 12, points: 1, speed: 2.0, hitRadius: 40, width: 90, height: 80, zone: 'ground', bobAmount: 3, bobSpeed: 3, facesRight: true },
+  { img: `${BASE}assets/squirrel.png`, name: 'Squirrel', food: 3, points: 1, speed: 3.2, hitRadius: 30, width: 70, height: 55, zone: 'ground', bobAmount: 5, bobSpeed: 5, facesRight: false },
 ];
 
 // Vertical zones — animals stay in the lower portion of the scene
